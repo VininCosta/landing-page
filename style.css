@@ -1,0 +1,113 @@
+body {
+    background-image: linear-gradient(to right, rgb(52, 179, 62), rgb(3, 104, 25));
+}
+
+.container {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    border: 2px solid black;
+    width: 40%;
+    height: 80vh;
+    margin-top: 76px;
+    margin-left: 123px;
+    background-image: url('img1.jpg');
+    opacity: 0.7;
+}
+
+.right {
+    border: 2px solid black;
+    width: 40%;
+    height: 80vh;
+    margin-top: 75px;
+    margin-left: 677px;
+    margin-top: -518px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('img2.jpg');
+    background-size: cover;
+    opacity: 0.9;
+}
+
+h2 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    color: black;
+    width: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left-h3 {
+    justify-content: center;
+    text-align: center;
+    margin-top: -25px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.right-h2 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 180px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button {
+    background-color: #35b084;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 25px;
+    margin-left: 195px;
+    margin-top: 70px;
+  }
+  @-webkit-keyframes glowing {
+    0% { background-color: rgb(3, 104, 25); -webkit-box-shadow: 0 0 3px #35b084; }
+    50% { background-color: #8BC34A; -webkit-box-shadow: 0 0 3px #8BC34A; }
+    100% { background-color: rgb(3, 104, 25); -webkit-box-shadow: 0 0 3px #35b084; }
+  }
+  
+  @-moz-keyframes glowing {
+    0% { background-color: rgb(3, 104, 25); -moz-box-shadow: 0 0 3px #35b084; }
+    50% { background-color: #8BC34A; -moz-box-shadow: 0 0 3px #8BC34A; }
+    100% { background-color: rgb(3, 104, 25); -moz-box-shadow: 0 0 3px #35b084; }
+  }
+  
+  @-o-keyframes glowing {
+    0% { background-color: rgb(3, 104, 25); box-shadow: 0 0 3px #35b084; }
+    50% { background-color: #8BC34A; box-shadow: 0 0 3px #8BC34A; }
+    100% { background-color: rgb(3, 104, 25); box-shadow: 0 0 3px #35b084; }
+  }
+  
+  @keyframes glowing {
+    0% { background-color: rgb(3, 104, 25); box-shadow: 0 0 3px #35b084; }
+    50% { background-color: #8BC34A; box-shadow: 0 0 3px #8BC34A; }
+    100% { background-color: rgb(3, 104, 25); box-shadow: 0 0 3px #35b084; }
+  }
+  
+  .button {
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+  }
+img {
+    width: 350px;
+    margin-left: 45%;
+    margin-top: -75px;
+    height: 200px;
+}
